@@ -11,7 +11,7 @@ if($text1 == ""){
 }else if(isset($_POST["str"])){
 	$has 	 = $_POST["strl"];
 	$hex1  = pack("H*", $has);
-if($input == ""){
+if($has){
 		$hex1 = $hex1;
 	}
 }
